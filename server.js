@@ -85,7 +85,7 @@ app.get("/", (req, res) => {
 });
 
 // sending post request to the client side 
-app.post('/guess', async (req, res) => {
+app.post('https://animal-name-guesser.vercel.app/guess', async (req, res) => {
 
   try {
 
